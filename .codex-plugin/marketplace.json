@@ -1,0 +1,20 @@
+{
+  "name": "falcon",
+  "interface": {
+    "displayName": "Falcon"
+  },
+  "plugins": [
+    {
+      "name": "falcon-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/falcon-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Falcon",
+  "owner": {
+    "name": "Falcon",
+    "email": "support@falcon.so"
+  },
+  "plugins": [
+    {
+      "name": "falcon-mcp",
+      "source": "./plugins/falcon-mcp",
+      "description": "Connects Claude Code to the local Falcon MCP server",
+      "version": "0.1.0"
+    }
+  ]
+}

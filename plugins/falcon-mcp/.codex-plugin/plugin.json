@@ -1,0 +1,30 @@
+{
+  "name": "falcon-mcp",
+  "version": "0.1.0",
+  "description": "Control Falcon using Codex.",
+  "author": {
+    "name": "Falcon",
+    "email": "support@falcon.so",
+    "url": "https://falcon.so"
+  },
+  "license": "MIT",
+  "homepage": "https://falcon.so",
+  "repository": "https://github.com/designcompute/agent-plugins.git",
+  "keywords": ["falcon", "design", "shaders", "brand", "experiences", "ui"],
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Falcon",
+    "shortDescription": "Use Falcon's local MCP server from Codex.",
+    "longDescription": "Registers the local Falcon MCP server at http://localhost:32526 so Codex can access Falcon tools while the Falcon app is running.",
+    "developerName": "Falcon",
+    "category": "Design",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use Falcon to create a bouncing ball shader.",
+      "Create a rippling UV effect in Falcon.",
+      "Connect to Falcon's MCP server."
+    ],
+    "websiteURL": "https://falcon.so",
+    "brandColor": "#2563EB"
+  }
+}

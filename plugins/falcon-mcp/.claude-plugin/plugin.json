@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "falcon-mcp",
+  "displayName": "Falcon",
+  "version": "0.1.0",
+  "description": "Connects Claude Code to the local Falcon MCP server.",
+  "author": {
+    "name": "Falcon",
+    "email": "support@falcon.so",
+    "url": "https://falcon.so"
+  },
+  "homepage": "https://falcon.so",
+  "repository": "https://github.com/designcompute/agent-plugins.git",
+  "license": "MIT",
+  "keywords": ["falcon", "design", "shaders", "brand", "experiences", "ui"],
+  "mcpServers": "./mcp.json"
+}

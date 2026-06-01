@@ -15,7 +15,7 @@
   "interface": {
     "displayName": "Falcon",
     "shortDescription": "Use Falcon's local MCP server from Codex.",
-    "longDescription": "Registers the local Falcon MCP server at http://localhost:32526 so Codex can access Falcon tools while the Falcon app is running.",
+    "longDescription": "Registers the local Falcon MCP server at http://127.0.0.1:32526/mcp so Codex can access Falcon tools while the Falcon app is running.",
     "developerName": "Falcon",
     "category": "Design",
     "capabilities": ["Read", "Write"],

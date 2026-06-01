@@ -25,6 +25,8 @@
       "Connect to Falcon's MCP server."
     ],
     "websiteURL": "https://falcon.so",
-    "brandColor": "#2563EB"
+    "brandColor": "#F10000",
+    "composerIcon": "./assets/composerIcon.png",
+    "logo": "./assets/logo.png"
   }
 }
